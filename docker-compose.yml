@@ -1,0 +1,42 @@
+version: "3"
+
+# see https://github.com/itzg/docker-minecraft-server#working-with-mods-and-plugins
+
+services:
+  mc:
+    image: itzg/minecraft-server:2022.9.0-java17
+    ports:
+      - 25565:25565
+    environment:
+      EULA: "TRUE"
+      VERSION: "1.18.2"
+      TYPE: "FORGE"
+      MEMORY: "4G"
+      REMOVE_OLD_MODS: "TRUE"
+      SPAWN_PROTECTION: "0"
+      LEVEL: "Summer2022"
+      ENFORCE_WHITELIST: "TRUE"
+      WHITELIST_FILE: /extra/whitelist.json
+      OVERRIDE_WHITELIST: "TRUE"
+      OPS_FILE: /extra/ops.json
+      OVERRIDE_OPS: "TRUE"
+    volumes:
+      - ./data:/data
+      - ./src/whitelist.json:/extra/whitelist.json
+      - ./src/ops.json:/extra/ops.json
+      - /etc/timezone:/etc/timezone:ro
+    tty: true
+    stdin_open: true
+    restart: unless-stopped
+
+  backup:
+    image: itzg/mc-backup
+    depends_on:
+    - mc
+    environment:
+      BACKUP_INTERVAL: "1h"
+    volumes:
+      - ./data:/data:ro
+      - ./mc-backups:/backups
+      - /etc/timezone:/etc/timezone:ro
+    network_mode: "service:mc"

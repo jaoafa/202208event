@@ -2,5 +2,6 @@ mc-backups/
 data/
 src/mods/*
 !src/mods/.gitkeep
-frp/
+frp/*
+!frp/Dockerfile
 .env

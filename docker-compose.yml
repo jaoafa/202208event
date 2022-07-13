@@ -3,6 +3,15 @@ version: "3"
 # see https://github.com/itzg/docker-minecraft-server#working-with-mods-and-plugins
 
 services:
+  frpc:
+    build: ./frpc
+    ports:
+      - "6789:6789"
+      - "7500:7500"
+    volumes:
+      - ./frpc/frpc.ini:/app/frpc.ini
+    restart: unless-stopped
+
   mc:
     image: itzg/minecraft-server:2022.9.0-java17
     ports:

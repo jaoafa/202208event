@@ -1,0 +1,174 @@
+{
+  "minecraft": {
+    "version": "1.18.2",
+    "modLoaders": [
+      {
+        "id": "forge-40.1.54",
+        "primary": true
+      }
+    ]
+  },
+  "manifestType": "minecraftModpack",
+  "manifestVersion": 1,
+  "name": "jao summer survival",
+  "version": "1.0.2",
+  "author": "",
+  "files": [
+    {
+      "projectID": 615134,
+      "fileID": 3773642,
+      "required": true
+    },
+    {
+      "projectID": 225643,
+      "fileID": 3847141,
+      "required": true
+    },
+    {
+      "projectID": 306770,
+      "fileID": 3846086,
+      "required": true
+    },
+    {
+      "projectID": 309927,
+      "fileID": 3841948,
+      "required": true
+    },
+    {
+      "projectID": 404465,
+      "fileID": 3822758,
+      "required": true
+    },
+    {
+      "projectID": 486392,
+      "fileID": 3871082,
+      "required": true
+    },
+    {
+      "projectID": 404468,
+      "fileID": 3725501,
+      "required": true
+    },
+    {
+      "projectID": 455982,
+      "fileID": 3834228,
+      "required": true
+    },
+    {
+      "projectID": 250898,
+      "fileID": 3831679,
+      "required": true
+    },
+    {
+      "projectID": 242818,
+      "fileID": 3843718,
+      "required": true
+    },
+    {
+      "projectID": 240630,
+      "fileID": 3831559,
+      "required": true
+    },
+    {
+      "projectID": 419699,
+      "fileID": 3855244,
+      "required": true
+    },
+    {
+      "projectID": 622737,
+      "fileID": 3831822,
+      "required": true
+    },
+    {
+      "projectID": 223794,
+      "fileID": 3859642,
+      "required": true
+    },
+    {
+      "projectID": 298187,
+      "fileID": 3725903,
+      "required": true
+    },
+    {
+      "projectID": 32274,
+      "fileID": 3820040,
+      "required": true
+    },
+    {
+      "projectID": 314906,
+      "fileID": 3824539,
+      "required": true
+    },
+    {
+      "projectID": 245174,
+      "fileID": 3805611,
+      "required": true
+    },
+    {
+      "projectID": 60089,
+      "fileID": 3578801,
+      "required": true
+    },
+    {
+      "projectID": 410811,
+      "fileID": 3773058,
+      "required": true
+    },
+    {
+      "projectID": 74072,
+      "fileID": 3829979,
+      "required": true
+    },
+    {
+      "projectID": 576589,
+      "fileID": 3751528,
+      "required": true
+    },
+    {
+      "projectID": 250398,
+      "fileID": 3860454,
+      "required": true
+    },
+    {
+      "projectID": 328085,
+      "fileID": 3871258,
+      "required": true
+    },
+    {
+      "projectID": 316582,
+      "fileID": 3694258,
+      "required": true
+    },
+    {
+      "projectID": 238222,
+      "fileID": 3847103,
+      "required": true
+    },
+    {
+      "projectID": 439890,
+      "fileID": 3871247,
+      "required": true
+    },
+    {
+      "projectID": 74924,
+      "fileID": 3829975,
+      "required": true
+    },
+    {
+      "projectID": 238372,
+      "fileID": 3859673,
+      "required": true
+    },
+    {
+      "projectID": 230976,
+      "fileID": 3693140,
+      "required": true
+    },
+    {
+      "projectID": 223852,
+      "fileID": 3807626,
+      "required": true
+    }
+  ],
+  "overrides": "overrides"
+}

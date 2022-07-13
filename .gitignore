@@ -1,3 +1,6 @@
 mc-backups/
 data/
+src/mods/*
+!src/mods/.gitkeep
 frp/
+.env

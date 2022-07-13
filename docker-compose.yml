@@ -10,6 +10,7 @@ services:
     environment:
       EULA: "TRUE"
       VERSION: "1.18.2"
+      FORGEVERSION: "40.1.54"
       TYPE: "FORGE"
       MEMORY: "4G"
       REMOVE_OLD_MODS: "TRUE"
@@ -22,6 +23,8 @@ services:
       OVERRIDE_OPS: "TRUE"
     volumes:
       - ./data:/data
+      - ./src/config:/config
+      - ./src/mods:/mods
       - ./src/whitelist.json:/extra/whitelist.json
       - ./src/ops.json:/extra/ops.json
       - /etc/timezone:/etc/timezone:ro

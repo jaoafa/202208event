@@ -2,6 +2,6 @@ mc-backups/
 data/
 src/mods/*
 !src/mods/.gitkeep
-frp/*
-!frp/Dockerfile
+frp/
+frpc/frpc.ini
 .env

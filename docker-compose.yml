@@ -30,12 +30,16 @@ services:
       OVERRIDE_WHITELIST: "TRUE"
       OPS_FILE: /extra/ops.json
       OVERRIDE_OPS: "TRUE"
+      ICON: /extra/server-icon.png
+      OVERRIDE_ICON: "TRUE"
+      MOTD: "§6§ljao Minecraft Server §4§kMorocco"
     volumes:
       - ./data:/data
       - ./src/config:/config
       - ./src/mods:/mods
       - ./src/whitelist.json:/extra/whitelist.json
       - ./src/ops.json:/extra/ops.json
+      - ./src/server-icon.png:/extra/server-icon.png
       - /etc/timezone:/etc/timezone:ro
     tty: true
     stdin_open: true

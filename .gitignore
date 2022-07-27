@@ -1,7 +1,9 @@
 mc-backups/
 data/
+src/config/Discord-Integration.toml
 src/mods/*
 !src/mods/modlist.txt
+src/mods-*/
 frp/
 frpc/frpc.ini
 .env

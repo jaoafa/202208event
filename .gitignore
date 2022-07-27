@@ -1,7 +1,7 @@
 mc-backups/
 data/
 src/mods/*
-!src/mods/.gitkeep
+!src/mods/modlist.txt
 frp/
 frpc/frpc.ini
 .env

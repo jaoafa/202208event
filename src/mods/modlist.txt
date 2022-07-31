@@ -11,6 +11,8 @@ create-mc1.18.2_v0.5.0c.jar
 createaddition-1.18.2-20220715a.jar
 Cucumber-1.18.2-5.1.2.jar
 curios-forge-1.18.2-5.0.7.1.jar
+dcintegration-forge-2.4.5-1.18.2.jar
+EasierSleeping-1.18.2-2.1.0.jar
 EnderStorage-1.18.2-2.9.0.177-universal.jar
 FastLeafDecay-28.jar
 flywheel-forge-1.18-0.6.4.jar
@@ -19,6 +21,7 @@ ftb-chunks-forge-1802.3.6-build.147.jar
 ftb-essentials-1802.1.7-build.42.jar
 ftb-library-forge-1802.3.6-build.123.jar
 ftb-teams-forge-1802.2.6-build.51.jar
+inventorysorter-1.18-19.0.0.jar
 jei-1.18.2-9.7.1.232.jar
 journeymap-1.18.2-5.8.5-forge.jar
 JustEnoughResources-1.18.2-0.14.1.171.jar

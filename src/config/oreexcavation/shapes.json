@@ -4,7 +4,7 @@
       "name": "1x2",
       "depth": -1,
       "reverse": 0,
-      "reticle": 12,
+      "reticle": 11,
       "stride": 0,
       "elevation": 0,
       "mask": [
@@ -72,6 +72,21 @@
         "OOXOO",
         "OOXOO",
         "OOXOO",
+        "OOOOO"
+      ]
+    },
+    {
+      "name": "seichi",
+      "depth": -1,
+      "reverse": 0,
+      "reticle": 12,
+      "stride": 0,
+      "elevation": 0,
+      "mask": [
+        "OOOOO",
+        "OOOOO",
+        "OXXXO",
+        "OOOOO",
         "OOOOO"
       ]
     }
